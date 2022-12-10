@@ -11,14 +11,25 @@ plugins {
 }
 
 group = "jp.fishnetwork"
-version = "0.0.0"
+version = "1.0.0"
 
 repositories {
     maven {
         url = uri("https://papermc.io/repo/repository/maven-public/")
     }
+    maven {
+        url = uri("https://repo.opencollab.dev/maven-snapshots/")
+    }
+    maven {
+        url = uri("https://jitpack.io")
+    }
 }
 
 dependencies {
+    annotationProcessor("org.projectlombok:lombok:1.18.24")
+    implementation("com.github.stefvanschie.inventoryframework:IF:0.10.7")
     compileOnly("io.papermc.paper:paper-api:1.19.2-R0.1-SNAPSHOT")
+    compileOnly("org.geysermc.floodgate:api:2.0-SNAPSHOT")
+    compileOnly("org.projectlombok:lombok:1.18.24")
+    compileOnly("com.github.MilkBowl:VaultAPI:1.7")
 }
