@@ -1,0 +1,14 @@
+{
+	"name": "shop",
+
+	"dockerFile": "Dockerfile",
+
+	"extensions": [
+		"richardwillis.vscode-gradle-extension-pack",
+		"seatonjiang.gitmoji-vscode",
+		"vscjava.vscode-java-pack",
+		"vscjava.vscode-lombok",
+		"mhutchie.git-graph",
+		"eamodio.gitlens"
+	]
+}
