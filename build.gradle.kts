@@ -26,6 +26,7 @@ repositories {
 }
 
 dependencies {
+    implementation("com.github.stefvanschie.inventoryframework:IF:0.10.7")
     compileOnly("io.papermc.paper:paper-api:1.19.2-R0.1-SNAPSHOT")
     compileOnly("org.geysermc.floodgate:api:2.0-SNAPSHOT")
     compileOnly("com.github.MilkBowl:VaultAPI:1.7")
